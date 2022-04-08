@@ -12,7 +12,7 @@ setup(name='tap-twitter-ads',
           'backoff==1.8.0',
           'requests==2.23.0',
           'singer-python==5.9.0',
-          'twitter-ads==10.0.0'
+          'twitter-ads @ git+https://github.com/tushdante/twitter-python-ads-sdk.git@tbhushan/ads-api-v11'
       ],
       extras_require={
           'dev': [
